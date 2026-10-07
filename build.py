@@ -137,6 +137,24 @@ def wezterm(slug, t):
     write(ROOT / "wezterm" / f"{t['name']}.toml", "\n".join(lines))
 
 
+def herdr(themes):
+    # Herdr has no theme files: one [theme] table holds a dark and a light
+    # override block, and auto_switch picks one from the host appearance.
+    names = " / ".join(f"{t['name']} ({t['appearance']})" for t in themes.values())
+    lines = [
+        f"# {names}",
+        "[theme]",
+        'name = "catppuccin" # base theme, every UI token is overridden below',
+        "auto_switch = true",
+        "",
+    ]
+    for t in themes.values():
+        lines.append(f"[theme.custom.{t['appearance']}]")
+        lines += [f'{k} = "{v}"' for k, v in t["herdr"].items()]
+        lines.append("")
+    write(ROOT / "herdr" / "theme.toml", "\n".join(lines))
+
+
 # --- contrast report ---------------------------------------------------------
 
 def _lin(c):
@@ -184,6 +202,7 @@ def main():
     for slug, t in themes.items():
         for port in (ghostty, iterm2, claude_code, kitty, alacritty, wezterm):
             port(slug, t)
+    herdr(themes)
     print("Built:", ", ".join(t["name"] for t in themes.values()))
 
 

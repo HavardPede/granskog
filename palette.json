@@ -67,6 +67,27 @@
           "rate_limit_fill": "#abb55a",
           "rate_limit_empty": "#3a4235"
         }
+      },
+      "herdr": {
+        "panel_bg": "#262c24",
+        "sidebar_bg": "#1f251d",
+        "active_row_bg": "#323a2f",
+        "selection_bg": "#3f4a37",
+        "surface0": "#323a2f",
+        "surface1": "#3f4a37",
+        "surface_dim": "#1f251d",
+        "overlay0": "#959a8c",
+        "overlay1": "#c9c5b8",
+        "text": "#dcd9ce",
+        "subtext0": "#c9c5b8",
+        "accent": "#abb55a",
+        "mauve": "#d49fb4",
+        "green": "#abb55a",
+        "yellow": "#e2be55",
+        "red": "#f7889a",
+        "blue": "#98b3c1",
+        "teal": "#93b9a9",
+        "peach": "#e3a05c"
       }
     },
     "reinlav": {
@@ -138,6 +159,27 @@
       },
       "ghostty_extra": {
         "minimum-contrast": "3"
+      },
+      "herdr": {
+        "panel_bg": "#dcdcd4",
+        "sidebar_bg": "#d0d0c7",
+        "active_row_bg": "#c4c2ae",
+        "selection_bg": "#c4c2ae",
+        "surface0": "#cdcdc2",
+        "surface1": "#b5b3a6",
+        "surface_dim": "#d0d0c7",
+        "overlay0": "#625e54",
+        "overlay1": "#434038",
+        "text": "#2a2822",
+        "subtext0": "#434038",
+        "accent": "#405200",
+        "mauve": "#723e57",
+        "green": "#405200",
+        "yellow": "#755607",
+        "red": "#af3044",
+        "blue": "#365261",
+        "teal": "#285a4b",
+        "peach": "#8f4a12"
       }
     }
   }
