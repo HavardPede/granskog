@@ -1,0 +1,14 @@
+# Granskog — The spruce forest behind the lichen. Dark, mossy green-grey.
+[colors]
+background = "#262c24"
+foreground = "#dcd9ce"
+cursor_bg = "#e2be55"
+cursor_border = "#e2be55"
+cursor_fg = "#262c24"
+selection_bg = "#3f4a37"
+selection_fg = "#dcd9ce"
+ansi = ["#323a2f", "#f7889a", "#abb55a", "#e2be55", "#98b3c1", "#d49fb4", "#93b9a9", "#c9c5b8"]
+brights = ["#868b7e", "#ffa5b6", "#c8d078", "#ffda75", "#b4cedc", "#efbbcf", "#afd4c5", "#eeebe2"]
+
+[metadata]
+name = "Granskog"
