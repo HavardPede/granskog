@@ -27,77 +27,17 @@ The full palette, including Claude Code tokens, lives in [`palette.json`](palett
 
 ## Install
 
+Each folder has its own README with install steps.
+
 | Tool | Files |
 | :- | :- |
-| [Ghostty](#ghostty) | [`ghostty/`](ghostty) |
-| [iTerm2](#iterm2) | [`iterm2/`](iterm2) |
-| [Claude Code](#claude-code) | [`claude-code/`](claude-code) |
-| [Kitty](#kitty) | [`kitty/`](kitty) |
-| [Alacritty](#alacritty) | [`alacritty/`](alacritty) |
-| [WezTerm](#wezterm) | [`wezterm/`](wezterm) |
-
-### Ghostty
-
-```sh
-mkdir -p ~/.config/ghostty/themes
-cp ghostty/granskog ghostty/reinlav ~/.config/ghostty/themes/
-```
-
-Then in `~/.config/ghostty/config`, follow the system appearance:
-
-```
-theme = light:reinlav,dark:granskog
-```
-
-Reinlav sets `minimum-contrast = 3`, so text that lands on a colored background with too little contrast is lifted automatically.
-
-### iTerm2
-
-Open **Settings → Profiles → Colors → Color Presets → Import…** and choose the two files in [`iterm2/`](iterm2). To follow the system appearance, check **Use separate colors for light and dark mode** and pick Granskog for dark and Reinlav for light.
-
-### Claude Code
-
-Claude Code supports [custom themes](https://code.claude.com/docs/en/terminal-config) as JSON files.
-
-```sh
-mkdir -p ~/.claude/themes
-cp claude-code/granskog.json claude-code/reinlav.json ~/.claude/themes/
-```
-
-Run `/theme` and pick **Granskog** or **Reinlav**. Claude Code reloads theme files when they change, so running sessions update without a restart.
-
-A custom theme is either light or dark. To follow the system appearance, select a single slot such as `custom:granskog-auto` once, and let a small script copy `granskog.json` or `reinlav.json` over `~/.claude/themes/granskog-auto.json` when macOS switches. Every open session follows.
-
-### Kitty
-
-```sh
-cp kitty/*.conf ~/.config/kitty/
-```
-
-Add `include granskog.conf` (or `reinlav.conf`) to `kitty.conf`.
-
-### Alacritty
-
-```sh
-mkdir -p ~/.config/alacritty/themes
-cp alacritty/*.toml ~/.config/alacritty/themes/
-```
-
-```toml
-[general]
-import = ["~/.config/alacritty/themes/granskog.toml"]
-```
-
-### WezTerm
-
-```sh
-mkdir -p ~/.config/wezterm/colors
-cp wezterm/*.toml ~/.config/wezterm/colors/
-```
-
-```lua
-config.color_scheme = "Granskog" -- or "Reinlav"
-```
+| Ghostty | [`ghostty/`](ghostty) |
+| iTerm2 | [`iterm2/`](iterm2) |
+| Claude Code | [`claude-code/`](claude-code) |
+| Herdr | [`herdr/`](herdr) |
+| Kitty | [`kitty/`](kitty) |
+| Alacritty | [`alacritty/`](alacritty) |
+| WezTerm | [`wezterm/`](wezterm) |
 
 ## Readability
 
