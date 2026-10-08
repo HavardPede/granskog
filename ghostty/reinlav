@@ -1,9 +1,9 @@
 # Reinlav — The reindeer lichen on the forest floor. Cool, soft grey-white.
-background = #dcdcd4
+background = #ebebe6
 foreground = #2a2822
 cursor-color = #425400
-cursor-text = #dcdcd4
-selection-background = #c4c2ae
+cursor-text = #ebebe6
+selection-background = #d3d1bd
 selection-foreground = #2a2822
 minimum-contrast = 3
 palette = 0=#2a2822
@@ -13,7 +13,7 @@ palette = 3=#755607
 palette = 4=#365261
 palette = 5=#723e57
 palette = 6=#285a4b
-palette = 7=#b5b3a6
+palette = 7=#c4c2b4
 palette = 8=#5d594f
 palette = 9=#8e152f
 palette = 10=#2a3b00
@@ -21,4 +21,4 @@ palette = 11=#5a3f00
 palette = 12=#203b48
 palette = 13=#57283f
 palette = 14=#114235
-palette = 15=#f1f0ea
+palette = 15=#fcfbf5

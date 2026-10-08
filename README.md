@@ -45,9 +45,9 @@ Muted should not mean hard to read. Both themes are checked against WCAG 2 and A
 
 | | Granskog | Reinlav |
 | :- | :-: | :-: |
-| Foreground on background | 10.1 : 1 | 10.7 : 1 |
-| Lowest ANSI color (red–cyan, normal and bright) | 6.1 : 1 | 4.6 : 1 |
-| Dim text (bright black) | 4.1 : 1 | 5.1 : 1 |
+| Foreground on background | 10.1 : 1 | 12.3 : 1 |
+| Lowest ANSI color (red–cyan, normal and bright) | 6.1 : 1 | 5.3 : 1 |
+| Dim text (bright black) | 4.1 : 1 | 5.8 : 1 |
 
 - Neither background is pure black or white. That avoids glare on light themes and halation (glowing text) on dark ones.
 - Red and green are separated by lightness as well as hue, so they stay distinct with red–green color blindness (deuteranopia).

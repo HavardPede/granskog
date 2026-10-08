@@ -94,10 +94,10 @@
       "name": "Reinlav",
       "appearance": "light",
       "description": "The reindeer lichen on the forest floor. Cool, soft grey-white.",
-      "background": "#dcdcd4",
+      "background": "#ebebe6",
       "foreground": "#2a2822",
       "cursor": "#425400",
-      "selection": "#c4c2ae",
+      "selection": "#d3d1bd",
       "ansi": {
         "black": "#2a2822",
         "red": "#af3044",
@@ -106,7 +106,7 @@
         "blue": "#365261",
         "magenta": "#723e57",
         "cyan": "#285a4b",
-        "white": "#b5b3a6"
+        "white": "#c4c2b4"
       },
       "bright": {
         "black": "#5d594f",
@@ -116,7 +116,7 @@
         "blue": "#203b48",
         "magenta": "#57283f",
         "cyan": "#114235",
-        "white": "#f1f0ea"
+        "white": "#fcfbf5"
       },
       "claude_code": {
         "base": "light",
@@ -124,7 +124,7 @@
           "claude": "#755607",
           "claudeShimmer": "#9a7a2a",
           "text": "#2a2822",
-          "inverseText": "#dcdcd4",
+          "inverseText": "#ebebe6",
           "inactive": "#625e54",
           "inactiveShimmer": "#7d796e",
           "subtle": "#929185",
@@ -142,32 +142,32 @@
           "planMode": "#365261",
           "autoAccept": "#723e57",
           "bashBorder": "#723e57",
-          "diffAdded": "#c4cfab",
-          "diffRemoved": "#e6c6c6",
-          "diffAddedDimmed": "#d0d6c0",
-          "diffRemovedDimmed": "#ddcfcd",
-          "diffAddedWord": "#a6b981",
-          "diffRemovedWord": "#d89ca2",
-          "userMessageBackground": "#cdcdc2",
-          "userMessageBackgroundHover": "#c4c4b8",
-          "bashMessageBackgroundColor": "#d0cec5",
-          "memoryBackgroundColor": "#d6cfbf",
-          "selectionBg": "#c4c2ae",
+          "diffAdded": "#d3deba",
+          "diffRemoved": "#f5d5d5",
+          "diffAddedDimmed": "#dfe5cf",
+          "diffRemovedDimmed": "#ecdedc",
+          "diffAddedWord": "#b5c88f",
+          "diffRemovedWord": "#e7aab0",
+          "userMessageBackground": "#dcdcd1",
+          "userMessageBackgroundHover": "#d3d3c7",
+          "bashMessageBackgroundColor": "#dfddd4",
+          "memoryBackgroundColor": "#e5dece",
+          "selectionBg": "#d3d1bd",
           "rate_limit_fill": "#405200",
-          "rate_limit_empty": "#c4c4b8"
+          "rate_limit_empty": "#d3d3c7"
         }
       },
       "ghostty_extra": {
         "minimum-contrast": "3"
       },
       "herdr": {
-        "panel_bg": "#dcdcd4",
-        "sidebar_bg": "#d0d0c7",
-        "active_row_bg": "#c4c2ae",
-        "selection_bg": "#c4c2ae",
-        "surface0": "#cdcdc2",
-        "surface1": "#b5b3a6",
-        "surface_dim": "#d0d0c7",
+        "panel_bg": "#ebebe6",
+        "sidebar_bg": "#dfdfd6",
+        "active_row_bg": "#d3d1bd",
+        "selection_bg": "#d3d1bd",
+        "surface0": "#dcdcd1",
+        "surface1": "#c4c2b4",
+        "surface_dim": "#dfdfd6",
         "overlay0": "#625e54",
         "overlay1": "#434038",
         "text": "#2a2822",
