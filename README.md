@@ -19,6 +19,12 @@ The colors were sampled from photographs of a Norwegian forest floor. The banner
 
 ![Reinlav preview](assets/reinlav.png)
 
+## Neovim
+
+![Granskog in Neovim](assets/nvim-granskog.png)
+
+Install `HavardPede/granskog` with your plugin manager and run `:colorscheme granskog`. It follows `'background'`, so it switches to Reinlav in light mode. See [`nvim/`](nvim).
+
 ## Palette
 
 ![Granskog and Reinlav palettes](assets/palette.png)
@@ -35,6 +41,7 @@ Each folder has its own README with install steps.
 | iTerm2 | [`iterm2/`](iterm2) |
 | Claude Code | [`claude-code/`](claude-code) |
 | Herdr | [`herdr/`](herdr) |
+| Neovim | [`nvim/`](nvim) |
 | Kitty | [`kitty/`](kitty) |
 | Alacritty | [`alacritty/`](alacritty) |
 | WezTerm | [`wezterm/`](wezterm) |
